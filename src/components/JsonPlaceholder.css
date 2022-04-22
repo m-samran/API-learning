@@ -1,0 +1,43 @@
+.main{
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.grid-call{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.btn{
+    width: 80px;
+    height: 50px;
+    color: black;
+    background-color: yellowgreen;
+    margin: 20px;
+}
+.main-form{
+    /* display: flex;
+    flex-direction: row; */
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.field{
+    height: 30px;
+    width: 100%;
+}
+.field-area{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .grid-call{
+        grid-template-columns: 1fr; 
+    }
+}
